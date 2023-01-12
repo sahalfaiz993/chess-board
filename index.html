@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="style.css">
     <style>
         .box{
-            width: 150px;
-            height: 150px;
-            display: inline-block;
-            border: 1px solid black;
-            margin: -2px;
-            font-size: 80px;
+            width: 140px;
+            height: 130px;
+            display: inline-table;
+            border: 2px solid black;
+            margin: 2px;
+            font-size: 90px;
             text-align: center;
+            position: relative;
+            
+            left: 16%;
             
         }
         .black{
             background-color: black;
             color:white;
+            background-image: url(https://unsplash.com/s/photos/chess);
         }
             
             
@@ -30,19 +34,24 @@
         .white{
             background-color: white;
         }
-        .p1{
-            font-size: 110px;
-            position:absolute;
-            top: 30%;
-            left: 50%;
-          
-           text-transform: uppercase;
-           text-indent: -18px;
+        .black:hover{color: rgb(255, 0, 0);
+            
         }
+        .white:hover{
+            color: rgb(0, 0, 255);
+        }
+        .p2{
+            position: relative;
+            left: 40%;
+            font-size: 50px;
+            
+        }
+       
+       
     </style>
 </head>
 <body>
-    
+    <h1 class="p2">Chess board</h1>
    
     <div>
         <div class="box black">&#9820;</div>
@@ -132,10 +141,8 @@
         <div class="box black ">&#9820;</div>   
 
     </div>
-    <div class="p1">
-       <b> Chess is a famous game in the world and any person play</b>
-    </div>
-     
+</body>
+    
    
    
 </html>
