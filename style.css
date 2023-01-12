@@ -1,0 +1,7 @@
+table{
+    border: 1px solid rgb(132, 44, 44);
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: -2px;
+}
